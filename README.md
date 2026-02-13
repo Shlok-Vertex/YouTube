@@ -1,134 +1,126 @@
 # 🌀 Anime Halo Haven – Limitless Anime Universe
 
-Welcome to **Anime Halo Haven**, a visually immersive anime-themed website inspired by the concept of a "Limitless Domain."  
-This project showcases a modern, animated, responsive website built using **HTML, CSS, and JavaScript**.
+Welcome to **Anime Halo Haven**, a visually immersive anime-inspired YouTube website built with pure HTML, CSS, and JavaScript.
+
+This project represents the official website of my YouTube channel and showcases anime content in a modern, animated, and interactive way.
 
 ---
 
-## 🌟 Features
+## 🌐 Live Links
 
-- 🎬 Hero section with animated typing effect
-- 💜 Custom animated loading screen
-- 🌌 Dynamic background effects (particles, glowing orbs, floating elements)
-- 📺 Featured Videos section (dynamically loaded via JavaScript)
-- 🎥 Shorts carousel with scroll controls
-- 📱 Fully responsive design
-- 🔥 Smooth scrolling navigation
-- 🌐 Social media floating sidebar
-- ✨ Modern UI with gradients, animations, and hover effects
+🔗 **GitHub Repository**  
+https://github.com/Shlok-Vertex/YouTube
+
+🎬 **YouTube Channel**  
+https://www.youtube.com/@animehalohaven
+
+🚀 **Live Website (Netlify)**  
+https://animehalohaven.netlify.app/
+
+---
+
+## ✨ Features
+
+- 🔥 Animated Loading Screen (Limitless Domain theme)
+- 💜 Purple Energy Orb Animation
+- 🌌 Floating Background Effects
+- ⌨ Auto Typing Text Animation
+- 📺 Dynamic Featured Videos Section
+- 🎥 Shorts Scroll Carousel
+- 📱 Fully Responsive Design
+- 🌊 Smooth Scroll Navigation
+- 📊 Animated Stats Counter
+- 📩 Contact Section
+- 🎨 Modern Gradient UI + Hover Effects
+
+---
+
+## 🛠 Tech Stack
+
+- **HTML5**
+- **CSS3** (Advanced animations + gradients)
+- **Vanilla JavaScript**
+- **Font Awesome Icons**
+- **Google Fonts**
 
 ---
 
 ## 📂 Project Structure
 
 ```
-Anime-Halo-Haven/
+YouTube/
 │
-├── index.html      # Main HTML structure
-├── images          # Images folder 
-├── style.css       # Styling, animations, layout
-├── script.js       # Dynamic content & interactivity
-└── README.md       # Project documentation
+├── index.html      # Main website structure
+├── images          # Images folder
+├── style.css       # Complete styling & animations
+├── script.js       # Dynamic functionality
+└── README.md       # Documentation
 ```
 
 ---
 
-## 🚀 Technologies Used
+## 🚀 How to Run Locally
 
-- **HTML5**
-- **CSS3**
-  - Custom animations
-  - Responsive design
-  - Gradient effects
-- **Vanilla JavaScript**
-  - DOM manipulation
-  - Auto typing effects
-  - Dynamic video loading
-  - Scroll interactions
-- **Font Awesome** (icons)
-- **Google Fonts**
-
----
-
-## 🎨 UI Highlights
-
-- Infinity grid background
-- Purple energy orb loading animation
-- Animated counters (Episodes, Subscribers, Shorts)
-- Interactive buttons with particle effects
-- Glassmorphism-inspired design elements
-
----
-
-## 🛠 How to Run the Project
-
-1. Clone the repository:
+1️⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/anime-halo-haven.git
+git clone https://github.com/Shlok-Vertex/YouTube.git
 ```
 
-2. Open the project folder:
+2️⃣ Open the folder:
 
 ```bash
-cd anime-halo-haven
+cd YouTube
 ```
 
-3. Open `index.html` in your browser.
+3️⃣ Open `index.html` in your browser.
 
-No additional setup or dependencies required.
+No installation required. Pure frontend project.
 
 ---
 
-## 🌍 Live Preview (Optional)
+## 🎯 Project Purpose
 
-If deployed using GitHub Pages:
+This website was created to:
 
-```
-https://your-username.github.io/anime-halo-haven/
-```
-
----
-
-## 📸 Screenshots (Optional Section)
-
-You can add screenshots like this:
-
-```markdown
-![Homepage Screenshot](images/screenshot1.png)
-```
+- Showcase my YouTube anime content professionally
+- Improve frontend development skills
+- Practice advanced CSS animations
+- Build a strong personal brand
 
 ---
 
-## 🤝 Connect
+## 📈 Future Improvements
 
-- YouTube: https://www.youtube.com/@AnimeHaloHaven  
-- Instagram  
-- WhatsApp  
-- Email  
+- 🔌 YouTube API Integration (Auto video fetching)
+- 🌗 Dark/Light Mode Toggle
+- 📨 Backend Integration for Contact Form
+- ⚡ Performance Optimization
+- 🔍 SEO Enhancements
 
 ---
 
-## 📌 Future Improvements
+## 👨‍💻 Developer
 
-- Add YouTube API integration for automatic video fetching
-- Add dark/light theme toggle
-- Improve performance optimization
-- Add backend for contact form
-- Add SEO optimization
+**Shlok Srivastava**  
+Frontend Developer | Anime Content Creator  
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+- ⭐ Star the repository  
+- 🔔 Subscribe to the YouTube channel  
+- 💬 Share feedback  
 
 ---
 
 ## 📜 License
 
-This project is open-source and available under the **MIT License**.
+This project is open-source and available under the MIT License.
 
 ---
 
-## 💜 Inspiration
-
-Inspired by the concept of limitless creativity and anime aesthetics.
-
----
-
-### ⭐ If you like this project, consider giving it a star on GitHub!
+> “To create an anime domain where imagination has no limits.” 💜
