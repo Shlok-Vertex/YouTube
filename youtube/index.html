@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Halo Haven | Limitless Anime Universe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Roboto:wght@300;400;500&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌀</text></svg>">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="hollow-purple-orb">
+                <div class="orb-core"></div>
+                <div class="orb-rings">
+                    <div class="ring ring-1"></div>
+                    <div class="ring ring-2"></div>
+                    <div class="ring ring-3"></div>
+                </div>
+                <div class="orb-glow"></div>
+                <div class="orb-sparks">
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                    <div class="spark"></div>
+                </div>
+            </div>
+            <div class="loading-text-container">
+                <span class="loading-text" id="typing-text"></span>
+                <span class="typing-cursor">|</span>
+            </div>
+            <div class="loading-progress">
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <div class="progress-text">Initializing Limitless Domain...</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="background-elements">
+        <div class="floating-circles">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+            <div class="circle circle-4"></div>
+            <div class="circle circle-5"></div>
+        </div>
+        <div class="infinity-grid">
+            <div class="grid-line"></div>
+            <div class="grid-line"></div>
+            <div class="grid-line"></div>
+            <div class="grid-line"></div>
+        </div>
+        <div class="energy-ribbons">
+            <div class="ribbon ribbon-1"></div>
+            <div class="ribbon ribbon-2"></div>
+            <div class="ribbon ribbon-3"></div>
+        </div>
+        <div class="sparkle-field"></div>
+        <div class="domain-overlay"></div>
+    </div>
+
+    <!-- Floating Social Connections -->
+    <div class="social-float">
+        <div class="social-tooltip">Connect with us</div>
+        <a href="https://www.youtube.com/@AnimeHaloHaven" target="_blank" class="social-icon youtube" aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+            <span class="social-label">YouTube</span>
+        </a>
+        <a href="https://www.instagram.com/shlok__23_sri" target="_blank" class="social-icon instagram" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+            <span class="social-label">Instagram</span>
+        </a>
+        <a href="https://wa.me/9308631825?text=Hello%20Anime%20Halo%20Haven" class="social-icon whatsapp" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp"></i>
+            <span class="social-label">WhatsApp</span>
+        </a>
+        <a href="mailto:shloksri11@gmail.com" class="social-icon email" aria-label="Email">
+            <i class="far fa-envelope"></i>
+            <span class="social-label">Email</span>
+        </a>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <div class="logo-icon">🌀</div>
+                    <span class="logo-text">ANIME HALO HAVEN</span>
+                </div>
+                <div class="nav-right">
+                    <ul class="nav-menu">
+                        <li><a href="#home" class="nav-link active">
+                            <span class="link-text">Home</span>
+                            <span class="link-underline"></span>
+                        </a></li>
+                        <li><a href="#about" class="nav-link">
+                            <span class="link-text">About</span>
+                            <span class="link-underline"></span>
+                        </a></li>
+                        <li><a href="#videos" class="nav-link">
+                            <span class="link-text">Videos</span>
+                            <span class="link-underline"></span>
+                        </a></li>
+                        <li><a href="#shorts" class="nav-link">
+                            <span class="link-text">Shorts</span>
+                            <span class="link-underline"></span>
+                        </a></li>
+                        <li><a href="#contact" class="nav-link">
+                            <span class="link-text">Contact</span>
+                            <span class="link-underline"></span>
+                        </a></li>
+                    </ul>
+                    <a href="https://www.youtube.com/@AnimeHaloHaven" target="_blank" class="nav-subscribe">
+                        <i class="fab fa-youtube"></i> Subscribe
+                    </a>
+                    <button class="menu-toggle" aria-label="Toggle menu">
+                        <span class="menu-bar"></span>
+                        <span class="menu-bar"></span>
+                        <span class="menu-bar"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="particles-container" id="particles"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>LIMITLESS DOMAIN</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="title-line">ANIME</span>
+                    <span class="title-line">HALO HAVEN</span>
+                </h1>
+                <div class="hero-subtitle-container">
+                    <p class="hero-subtitle" id="auto-typing"></p>
+                    <span class="typing-cursor">|</span>
+                </div>
+                <div class="hero-buttons">
+                    <a href="https://www.youtube.com/@AnimeHaloHaven" target="_blank" class="btn btn-primary btn-hero">
+                        <div class="btn-content">
+                            <i class="fab fa-youtube btn-icon"></i>
+                            <div class="btn-text">
+                                <span class="btn-main">Watch on YouTube</span>
+                                <span class="btn-sub">Visit Channel ↗</span>
+                            </div>
+                        </div>
+                        <div class="btn-hover-effect"></div>
+                        <div class="btn-particles"></div>
+                    </a>
+                    <a href="#videos" class="btn btn-secondary btn-hero">
+                        <div class="btn-content">
+                            <i class="fas fa-play-circle btn-icon"></i>
+                            <div class="btn-text">
+                                <span class="btn-main">Enter Domain</span>
+                                <span class="btn-sub">Explore Videos</span>
+                            </div>
+                        </div>
+                        <div class="btn-hover-effect"></div>
+                        <div class="btn-particles"></div>
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="7">0+</div>
+                        <div class="stat-label">Episodes</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="100">+</div>
+                        <div class="stat-label">Subscribers</div>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="10">0+</div>
+                        <div class="stat-label">Shorts</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrow-down"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">THE DOMAIN</span>
+                <h2>About Anime Halo Haven</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-visual">
+                    <div class="visual-card">
+                        <div class="card-glare"></div>
+                        <div class="card-content">
+                            <div class="card-icon">🌀</div>
+                            <h3>Limitless Creativity</h3>
+                            <p>Where anime transcends boundaries</p>
+                        </div>
+                        <div class="card-orb">
+                            <div class="orb-spin"></div>
+                        </div>
+                    </div>
+                    <div class="visual-orb">
+                        <div class="orb-inner">
+                            <div class="orb-spark"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>Welcome to the <span class="highlight">Ultimate Anime Sanctuary</span></h3>
+                        <p class="lead">At Anime Halo Haven, we don't just create content—we craft <span class="highlight">immersive anime experiences</span>. Inspired by the limitless power of Satoru Gojo, every video is a journey into the heart of anime artistry.</p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-infinity"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Limitless Content</h4>
+                                <p>From deep-dive analyses to breathtaking AMVs, our content knows no bounds.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Six Eyes Precision</h4>
+                                <p>Every frame is crafted with meticulous attention to detail and quality.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Community Domain</h4>
+                                <p>Join a thriving community of anime enthusiasts and creators.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-mission">
+                        <blockquote>
+                            <p>"To create an anime domain where imagination has no limits, and every viewer feels the power of unlimited potential."</p>
+                            <cite>- Anime Halo Haven</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">CONTENT</span>
+                <h2>Featured Videos</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Explore our latest and most popular episodes</p>
+            </div>
+            <div class="videos-grid" id="videos-grid">
+                <!-- Videos will be loaded from JavaScript -->
+            </div>
+            <div class="section-footer">
+                <a href="https://www.youtube.com/@AnimeHaloHaven/videos" target="_blank" class="btn btn-primary btn-view-all">
+                    <i class="fab fa-youtube"></i> View All Videos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shorts Section -->
+    <section id="shorts" class="shorts-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">QUICK CONTENT</span>
+                <h2>Latest Shorts</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Bite-sized anime moments</p>
+            </div>
+            <div class="shorts-container">
+                <div class="shorts-scroll" id="shorts-scroll">
+                    <!-- Shorts will be loaded from JavaScript -->
+                </div>
+                <div class="scroll-controls">
+                    <button class="scroll-btn left-btn" aria-label="Scroll left">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="scroll-btn right-btn" aria-label="Scroll right">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="section-footer">
+                <a href="https://www.youtube.com/@AnimeHaloHaven/shorts" target="_blank" class="btn btn-secondary btn-view-all">
+                    <i class="fab fa-youtube"></i> View All Shorts
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">CONNECT</span>
+                <h2>Enter Our Domain</h2>
+                <div class="section-divider"></div>
+                <p class="section-subtitle">Connect with us for collaborations, suggestions, or just to talk anime</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-compass"></i>
+                        </div>
+                        <h3>Find Our Domain</h3>
+                        <p>Subscribe to our YouTube channel for limitless anime content</p>
+                        <a href="https://www.youtube.com/@AnimeHaloHaven" target="_blank" class="info-link">
+                            <i class="fab fa-youtube"></i> @AnimeHaloHaven
+                        </a>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Quick Connect</h3>
+                        <p>For instant communication, message us on WhatsApp</p>
+                        <a href="https://wa.me/911234567890?text=Hello%20Anime%20Halo%20Haven" class="info-link">
+                            <i class="fab fa-whatsapp"></i> 9308631825
+                        </a>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Domain</h3>
+                        <p>For business inquiries and collaborations</p>
+                        <a href="mailto:contact@animehalohaven.com" class="info-link">
+                            <i class="far fa-envelope"></i> shloksri11@gmail.com
+                        </a>
+                    </div>
+                </div>
+                <form id="contact-form" class="contact-form">
+                    <div class="form-header">
+                        <h3>Send a Message</h3>
+                        <p>We'll respond within the domain's time</p>
+                    </div>
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder=" " required>
+                            <label for="name">Your Name</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder=" " required>
+                            <label for="email">Your Email</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group full-width">
+                            <input type="text" id="subject" name="subject" placeholder=" " required>
+                            <label for="subject">Subject</label>
+                            <div class="form-line"></div>
+                        </div>
+                        <div class="form-group full-width">
+                            <textarea id="message" name="message" placeholder=" " rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="form-line"></div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span class="btn-text">Send Message</span>
+                        <i class="fas fa-paper-plane btn-icon"></i>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="footer-brand">
+                        <div class="logo">
+                            <div class="logo-icon">🌀</div>
+                            <span class="logo-text">ANIME HALO HAVEN</span>
+                        </div>
+                        <p class="footer-tagline">Where anime finds its limitless expression</p>
+                        <div class="footer-social">
+                            <a href="https://www.youtube.com/@AnimeHaloHaven" target="_blank" class="social-link">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://www.instagram.com/shlok__23_sri" target="_blank" class="social-link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" target="_blank" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" target="_blank" class="social-link">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-links">
+                        <div class="link-group">
+                            <h4>Content</h4>
+                            <a href="https://www.youtube.com/@AnimeHaloHaven/videos" target="_blank">Episodes</a>
+                            <a href="https://www.youtube.com/@AnimeHaloHaven/shorts" target="_blank">Shorts</a>
+                            <a href="https://www.youtube.com/@AnimeHaloHaven/playlists" target="_blank">Playlists</a>
+                            <a href="https://www.youtube.com/@AnimeHaloHaven/community" target="_blank">Community</a>
+                        </div>
+                        <div class="link-group">
+                            <h4>Domain</h4>
+                            <a href="#about">About Us</a>
+                            <a href="#contact">Contact</a>
+                            <a href="#videos">Videos</a>
+                            <a href="#shorts">Shorts</a>
+                        </div>
+                        <div class="link-group">
+                            <h4>Connect</h4>
+                            <a href="mailto:shloksri11@gmail.com">Email</a>
+                            <a href="https://wa.me/9308631825">WhatsApp</a>
+                            <a href="https://www.instagram.com/shlok__23_sri" target="_blank">Instagram</a>
+                            <a href="#" target="_blank">Discord</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="footer-quote">
+                        <p>"Stand Proud. You Are Strong."</p>
+                        <span class="quote-author">— Inspired by Satoru Gojo</span>
+                    </div>
+                    <div class="footer-copyright">
+                        <p>&copy; <span id="current-year"></span> Anime Halo Haven. All rights reserved.</p>
+                        <p>Channel inspired by the limitless domain of Satoru Gojo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Go to Top Button -->
+    <button class="go-top" aria-label="Go to top">
+        <i class="fas fa-chevron-up"></i>
+        <span class="go-top-text">TOP</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
